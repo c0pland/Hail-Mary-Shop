@@ -20,17 +20,36 @@ struct ProductDetailView: View {
 			// detail top
 			TopPartDetailView()
 				.padding(.horizontal)
+				.zIndex(1)
 			// detail bottom
+			VStack(alignment: .center, spacing: 0) {
+				// rating & sizes
+				RatingsSizesDetailView()
+					.padding(.top, -25)
+					.padding(.bottom, 10)
+				//description
+				ScrollView(.vertical, showsIndicators: false) {
+					Text(sampleProduct.description)
+						.font(.system(.body, design: .rounded))
+						.foregroundColor(.gray)
+						.multilineTextAlignment(.leading)
+				}
+				// quantity & favourite
+				QuantityFavouriteDetailView()
+					.padding(.vertical, 10)
+				// add to cart
+				AddToCartDetailView()
+					.padding(.bottom, 20)
+			}
+			.padding(.horizontal)
+			.background(
+				Color.white
+					.clipShape(CustomShape())
+					.padding(.top, -105)
+			)
 			
-			// rating & sizes
-			
-			//description
-			
-			// quantity & favourite
-			
-			// add to cart
-			Spacer()
 		}
+		.zIndex(0)
 		.ignoresSafeArea(.all, edges: .all)
 		.background(Color(
 			red: sampleProduct.red,
