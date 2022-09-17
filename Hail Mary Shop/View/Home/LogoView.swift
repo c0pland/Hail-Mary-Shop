@@ -10,7 +10,7 @@ import SwiftUI
 struct LogoView: View {
     var body: some View {
 		HStack(spacing: 4) {
-			Text("Touch".uppercased())
+			Text("Hail".uppercased())
 				.font(.title3)
 				.fontWeight(.black)
 				.foregroundColor(.black)
@@ -18,7 +18,7 @@ struct LogoView: View {
 				.resizable()
 				.scaledToFit()
 				.frame(width: 30, height: 30, alignment: .center)
-			Text("Down".uppercased())
+			Text("Mary".uppercased())
 				.font(.title3)
 				.fontWeight(.black)
 				.foregroundColor(.black)
