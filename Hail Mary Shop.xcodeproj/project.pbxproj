@@ -25,6 +25,10 @@
 		2203A42828D64ECE0094CB67 /* BrandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2203A42728D64ECE0094CB67 /* BrandModel.swift */; };
 		2203A42A28D64F170094CB67 /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2203A42928D64F170094CB67 /* BrandItemView.swift */; };
 		2203A42C28D64FA00094CB67 /* BrandGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2203A42B28D64FA00094CB67 /* BrandGridView.swift */; };
+		2203A42E28D654190094CB67 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2203A42D28D654190094CB67 /* ProductDetailView.swift */; };
+		2203A43028D657560094CB67 /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2203A42F28D657560094CB67 /* NavigationBarDetailView.swift */; };
+		2203A43228D658680094CB67 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2203A43128D658680094CB67 /* HeaderDetailView.swift */; };
+		2203A43428D658DD0094CB67 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2203A43328D658DD0094CB67 /* TopPartDetailView.swift */; };
 		226B1C0828D4DFF9005B73B2 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226B1C0728D4DFF9005B73B2 /* PlayerModel.swift */; };
 		226B1C0A28D4E034005B73B2 /* CodeableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226B1C0928D4E034005B73B2 /* CodeableBundleExtension.swift */; };
 		226B1C0C28D4E2CA005B73B2 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226B1C0B28D4E2CA005B73B2 /* FeaturedItemView.swift */; };
@@ -55,6 +59,10 @@
 		2203A42728D64ECE0094CB67 /* BrandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandModel.swift; sourceTree = "<group>"; };
 		2203A42928D64F170094CB67 /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
 		2203A42B28D64FA00094CB67 /* BrandGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridView.swift; sourceTree = "<group>"; };
+		2203A42D28D654190094CB67 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		2203A42F28D657560094CB67 /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
+		2203A43128D658680094CB67 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
+		2203A43328D658DD0094CB67 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 		226B1C0728D4DFF9005B73B2 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
 		226B1C0928D4E034005B73B2 /* CodeableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableBundleExtension.swift; sourceTree = "<group>"; };
 		226B1C0B28D4E2CA005B73B2 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
@@ -121,6 +129,7 @@
 				2203A42528D64B4F0094CB67 /* ProductItemView.swift */,
 				2203A42928D64F170094CB67 /* BrandItemView.swift */,
 				2203A42B28D64FA00094CB67 /* BrandGridView.swift */,
+				2203A42D28D654190094CB67 /* ProductDetailView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -128,6 +137,9 @@
 		2201DAEF28D3AB0A006C4664 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				2203A42F28D657560094CB67 /* NavigationBarDetailView.swift */,
+				2203A43128D658680094CB67 /* HeaderDetailView.swift */,
+				2203A43328D658DD0094CB67 /* TopPartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -274,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				22B1C4FD28D3A33400AAD2CE /* ContentView.swift in Sources */,
+				2203A43228D658680094CB67 /* HeaderDetailView.swift in Sources */,
+				2203A43428D658DD0094CB67 /* TopPartDetailView.swift in Sources */,
 				2201DAFA28D3B122006C4664 /* LogoView.swift in Sources */,
 				2201DAF628D3AC0D006C4664 /* FooterView.swift in Sources */,
 				22B1C4FB28D3A33400AAD2CE /* Hail_Mary_ShopApp.swift in Sources */,
@@ -281,6 +295,8 @@
 				2203A42628D64B4F0094CB67 /* ProductItemView.swift in Sources */,
 				2203A42C28D64FA00094CB67 /* BrandGridView.swift in Sources */,
 				2201DAF428D3AB4B006C4664 /* Constant.swift in Sources */,
+				2203A42E28D654190094CB67 /* ProductDetailView.swift in Sources */,
+				2203A43028D657560094CB67 /* NavigationBarDetailView.swift in Sources */,
 				2201DAF828D3AFF2006C4664 /* NavigationBarView.swift in Sources */,
 				2203A41C28D60F500094CB67 /* CategoryGridView.swift in Sources */,
 				2203A41828D60ACD0094CB67 /* CategoryModel.swift in Sources */,

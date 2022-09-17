@@ -18,7 +18,7 @@ struct ContentView: View {
 				NavigationBarView()
 					.padding(.horizontal, 15)
 					.padding(.bottom)
-					.padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
+					.padding(.top, notchSize)
 					.background(Color.white)
 					.shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
 				
