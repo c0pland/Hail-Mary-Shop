@@ -22,7 +22,7 @@ var gridLayout: [GridItem] {
 	return Array(repeating: GridItem(.flexible(), spacing: rowSpacing), count: 2)
 }
 // UX
-
+let feedback = UIImpactFeedbackGenerator(style: .medium)
 // API
 
 // Image

@@ -41,6 +41,7 @@
 		22B1C4FD28D3A33400AAD2CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1C4FC28D3A33400AAD2CE /* ContentView.swift */; };
 		22B1C4FF28D3A33500AAD2CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B1C4FE28D3A33500AAD2CE /* Assets.xcassets */; };
 		22B1C50228D3A33500AAD2CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B1C50128D3A33500AAD2CE /* Preview Assets.xcassets */; };
+		22B50EB928D71737007F7C5E /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B50EB828D71736007F7C5E /* Shop.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		22B1C4FC28D3A33400AAD2CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22B1C4FE28D3A33500AAD2CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22B1C50128D3A33500AAD2CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22B50EB828D71736007F7C5E /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 			children = (
 				2201DAF328D3AB4B006C4664 /* Constant.swift */,
 				2203A43528D65C090094CB67 /* CustomShape.swift */,
+				22B50EB828D71736007F7C5E /* Shop.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				226B1C0E28D4E318005B73B2 /* FeaturedTabView.swift in Sources */,
 				2203A43628D65C090094CB67 /* CustomShape.swift in Sources */,
 				226B1C0828D4DFF9005B73B2 /* PlayerModel.swift in Sources */,
+				22B50EB928D71737007F7C5E /* Shop.swift in Sources */,
 				2203A42828D64ECE0094CB67 /* BrandModel.swift in Sources */,
 				2203A42028D6489A0094CB67 /* TitleView.swift in Sources */,
 				2203A43A28D666D40094CB67 /* QuantityFavouriteDetailView.swift in Sources */,

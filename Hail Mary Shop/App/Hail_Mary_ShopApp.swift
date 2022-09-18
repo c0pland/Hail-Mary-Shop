@@ -12,6 +12,7 @@ struct Hail_Mary_ShopApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+				.environmentObject(Shop())
         }
     }
 }

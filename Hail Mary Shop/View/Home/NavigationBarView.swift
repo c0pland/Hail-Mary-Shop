@@ -12,13 +12,13 @@ struct NavigationBarView: View {
 	
     var body: some View {
 		HStack {
-			Button {
-				
-			} label: {
-				Image(systemName: "magnifyingglass")
-					.font(.title)
-					.foregroundColor(.black)
-			}
+//			Button {
+//				
+//			} label: {
+//				Image(systemName: "magnifyingglass")
+//					.font(.title)
+//					.foregroundColor(.black)
+//			}
 			Spacer()
 			LogoView()
 				.opacity(isAnimated ? 1 : 0)
